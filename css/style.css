@@ -21279,12 +21279,11 @@ code {
     border-radius: 4px;
 }
 
-
 /* Footer */
 
 .footer {
     background: #F5F7FF;
-    padding: 30px 2.45rem;
+    padding: 10px 2.45rem;
     transition: all 0.25s ease;
     -moz-transition: all 0.25s ease;
     -webkit-transition: all 0.25s ease;
@@ -31421,7 +31420,7 @@ div.tagsinput span.tag a {
     font-family: "Nunito", sans-serif;
     font-weight: 500;
     padding: 0;
-    width: 235px;
+    width: 300px;
     z-index: 11;
     transition: width 0.25s ease, background 0.25s ease;
     -webkit-transition: width 0.25s ease, background 0.25s ease;
@@ -31610,8 +31609,9 @@ div.tagsinput span.tag a {
     content: '';
     width: 5px;
     height: 5px;
-    position: absolute;
-    margin-top: 16px;
+    position: relative;
+    display: flex;
+    top: 19px;
     border-radius: 50%;
     background: #b2b2b2;
 }
@@ -31778,7 +31778,7 @@ div.tagsinput span.tag a {
 
 .navbar .navbar-brand-wrapper .navbar-brand img {
     max-width: 100%;
-    height: 34px;
+    height: 75px;
     margin: auto;
     vertical-align: middle;
 }
@@ -31789,9 +31789,10 @@ div.tagsinput span.tag a {
 }
 
 .navbar .navbar-brand-wrapper .brand-logo-mini img {
-    width: calc(70px - 30px);
+/*     width: calc(70px - 30px); */
     max-width: 100%;
     margin: auto;
+    height: 50px;
 }
 
 .navbar .navbar-menu-wrapper {
